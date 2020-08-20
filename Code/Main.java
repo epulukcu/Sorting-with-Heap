@@ -4,7 +4,7 @@ import java.util.Random;
 import java.util.Scanner;
 /**
  * 
- * @author Elif Pulukçu Student ID: 041701017
+ * @author Elif PulukÃ§u
  * December 16th, 2019
  * Program Explanation: The program aims to compare speeds of a Heapsort algorithm, Java's sorting algorithm and
  * selection sort algorithm.
@@ -20,7 +20,6 @@ public class Elif_Pulukcu {
 	 * @param list Method takes an array of Integers that named list as a parameter
 	 */
 	public static void heapSort(Integer[] list) {
-
 		// Create a heap
 		Heap<Integer> heap = new Heap<Integer>();
 
@@ -28,7 +27,6 @@ public class Elif_Pulukcu {
 		for (int i = 0; i < list.length; i++) {
 			heap.add(list[i]);
 		}
-
 		// Remove elements from the heap to sort it
 		for (int i = 0; i < list.length; i++) {
 			heap.remove();
